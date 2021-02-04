@@ -39,7 +39,6 @@ void loop() {
       cmd = lastCmd;
      
       if(cmd == 0x00FF22DD) {
-//        digitalWrite(LED1, !digitalRead(LED1));
         digitalWrite(LED1, HIGH);
       }
       if(cmd == 0x00FFC23D) {
